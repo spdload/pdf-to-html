@@ -9,8 +9,23 @@
         }
     ],
     "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "spdload/php-html-parser",
+                "version": "1.7.1",
+                "type": "package",
+                "source": {
+                    "url": "git@github.com:spdload/php-html-parser.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
     "require": {
-        "paquettg/php-html-parser": "~1",
+        "spdload/php-html-parser": "^1.7",
         "illuminate/config": "~5"
     },
     "require-dev":{
